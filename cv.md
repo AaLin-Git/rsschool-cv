@@ -2,21 +2,23 @@
 
 ## Junior Front-end developer
 
-=========
+---
 
 ### **Contact info**
 
 **Phone** +380736085976
+
 **E-mail** aalin.box.it@gmail.com
+
 [LinkedIn](https://www.linkedin.com/in/alona-k-277561236/)
 
-=========
+---
 
 ### **About Myself**
 
 Some time ago I decided to reshape my life by learning to code. It turned out to be much easier and clearer than I thought. Now I can't imagine a day without coding. I learn and improve my knowledge of HTML, CSS, JavaScript and React. I learn quickly, solve tasks and pay attention to details.
 
-=======
+---
 
 ### **Skills**
 
