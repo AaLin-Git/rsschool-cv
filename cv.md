@@ -25,6 +25,18 @@ Some time ago I decided to reshape my life by learning to code. It turned out to
 -   JavaScript
 -   Git
 
+### **Code Example**
+
+```
+function booleanToString(b){
+  if(b === true) {
+return "true";
+    } else {
+return "false";
+      }
+}
+```
+
 ### **Projects**
 
 1.  [Weather App [HTML, CSS, JavaScript]](https://github.com/AaLin-Git/Weather-website)
