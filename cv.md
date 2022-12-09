@@ -2,14 +2,14 @@
 
 ## Front-end developer
 
--   Skills
+### Skills
 
-*   HTML5
-*   CSS3
-*   JavaScript
-*   Git
+-   HTML5
+-   CSS3
+-   JavaScript
+-   Git
 
--   Projects
+### Projects
 
 1.  [Weather App [HTML, CSS, JavaScript]](https://github.com/AaLin-Git/Weather-website)
 2.  [Croissant App [HTML, CSS, Bootstrap]](https://github.com/AaLin-Git/Croissants)
