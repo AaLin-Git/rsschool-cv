@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #FFEFCF;
+    --primary-color: #fffced;
     --secondary-color: #FF8B00;
 }
 
@@ -92,7 +92,9 @@ body {
 }
 
 .contact-info-item {
-    line-height: 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .contact-info-link {
@@ -105,7 +107,7 @@ body {
 
 .main {
     width: 60%;
-    background-color: #fffced;
+    
 }
 
 .skills,
