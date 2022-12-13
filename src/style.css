@@ -6,20 +6,20 @@
 /*Header styles*/
 
 body {
-    font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
+    font-family: 'Playfair Display', serif;
     color: #444444;
 }
 
 .header,
 .footer {
-    height: 100px;
-    width: 100%;
-    background-color: var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color: var(--secondary-color);
 }
 
 .nav ul {
@@ -28,10 +28,10 @@ body {
 }
 
 .nav-link {
-    color: #444444;
     padding: 10px;
     text-decoration: none;
     text-transform: uppercase;
+    color: #444444;
 }
 
 .nav-link:visited {
@@ -41,7 +41,7 @@ body {
 .nav-link:hover,
 .contact-info-link:hover,
 .project-link:hover {
-    color: #000;
+    color: #000000;
 }
 
 /*Main styles*/
@@ -61,22 +61,22 @@ body {
 .photo {
     align-self: center;
     width: 70%;
-    border-radius: 50%;
     margin: 40px;
+    border-radius: 50%;
 }
 
 .h1 {
+    margin: 10px 20px;
     font-size: 2.5em;
     font-weight: 700;
-    color:#000;
-    margin: 10px 20px;
+    color:#000000;
 }
 
 .position {
+    margin: 10px 20px 30px;
     font-size: 1.5em;
     font-weight: 700;
     color:var(--secondary-color);
-    margin: 10px 20px 30px;
 }
 
 .about,
@@ -85,10 +85,10 @@ body {
 }
 
 .sub-header {
+    margin: 10px 0;
     font-size: 1.3em;
     font-weight: 700;
     color: var(--secondary-color);
-    margin: 10px 0;
 }
 
 .contact-info-item {
@@ -98,9 +98,9 @@ body {
 }
 
 .contact-info-link {
-    color: #444444;
-    text-decoration: none;
     margin-left: 15px;
+    text-decoration: none;
+    color: #444444;
 }
 
 /*Main styles*/
@@ -127,8 +127,12 @@ body {
 }
 
 .project-link {
-    color: #444444;
     text-decoration: none;
+    color: #444444;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /*Footer styles*/
