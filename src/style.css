@@ -37,7 +37,8 @@ body {
 }
 
 .nav-link:hover,
-.contact-info-link:hover {
+.contact-info-link:hover,
+.project-link:hover {
     color: #000;
 }
 
@@ -64,14 +65,16 @@ body {
 
 .h1 {
     font-size: 2.5em;
-    margin: 10px 20px;
+    font-weight: 700;
     color:#000;
+    margin: 10px 20px;
 }
 
 .position {
     font-size: 1.5em;
+    font-weight: 700;
+    color:var(--secondary-color);
     margin: 10px 20px;
-    color:#000;
 }
 
 .about,
@@ -81,8 +84,9 @@ body {
 
 .sub-header {
     font-size: 1.3em;
+    font-weight: 700;
+    color: var(--secondary-color);
     margin: 10px 0;
-    color: #000;
 }
 
 .contact-info-item {
@@ -93,4 +97,28 @@ body {
     color: #444444;
     text-decoration: none;
     margin-left: 15px;
+}
+
+/*Main styles*/
+
+.main {
+    width: 60%;
+    background-color: #fffced;
+}
+
+.skills,
+.code-example,
+.projects,
+.courses,
+.languages {
+    margin: 30px;
+}
+
+.projects-list {
+    margin-left: 15px;
+}
+
+.project-link {
+    color: #444444;
+    text-decoration: none;
 }
