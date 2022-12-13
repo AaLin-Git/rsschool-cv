@@ -1,11 +1,15 @@
-/*Header*/
 :root {
     --primary-color: #FFEFCF;
-    --secondary-color: #FF7A00;
+    --secondary-color: #FF8B00;
 }
+
+/*Header styles*/
 
 body {
     font-family: 'Playfair Display', serif;
+    display: flex;
+    flex-direction: column;
+    color: #444444;
 }
 
 .header {
@@ -25,13 +29,68 @@ body {
     color: #444444;
     padding: 10px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .nav-link:visited {
     color: #444444;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.contact-info-link:hover {
     color: #000;
 }
 
+/*Main styles*/
+
+.wrapper {
+    display: flex;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: var(--primary-color);
+    
+}
+
+.photo {
+    align-self: center;
+    width: 70%;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.h1 {
+    font-size: 2.5em;
+    margin: 10px 20px;
+    color:#000;
+}
+
+.position {
+    font-size: 1.5em;
+    margin: 10px 20px;
+    color:#000;
+}
+
+.about,
+.contact-info {
+    margin: 10px 20px;
+}
+
+.sub-header {
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: #000;
+}
+
+.contact-info-item {
+    line-height: 2em;
+}
+
+.contact-info-link {
+    color: #444444;
+    text-decoration: none;
+    margin-left: 15px;
+}
