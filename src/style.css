@@ -12,8 +12,10 @@ body {
     color: #444444;
 }
 
-.header {
+.header,
+.footer {
     height: 100px;
+    width: 100%;
     background-color: var(--secondary-color);
     display: flex;
     align-items: center;
@@ -74,12 +76,12 @@ body {
     font-size: 1.5em;
     font-weight: 700;
     color:var(--secondary-color);
-    margin: 10px 20px;
+    margin: 10px 20px 30px;
 }
 
 .about,
 .contact-info {
-    margin: 10px 20px;
+    margin: 10px 20px 50px;
 }
 
 .sub-header {
@@ -118,7 +120,25 @@ body {
     margin-left: 15px;
 }
 
+.projects-list li {
+    color: var(--secondary-color)
+}
+
 .project-link {
     color: #444444;
     text-decoration: none;
+}
+
+/*Footer styles*/
+
+.footer {
+    justify-content: space-around;
+}
+
+.logo {
+    width: 30px;
+}
+
+.rsschool-logo {
+    width: 110px;
 }
