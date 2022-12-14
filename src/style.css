@@ -42,6 +42,7 @@
 .nav-link,
 .burger-nav-link {
     padding: 10px;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     color: #444444;
@@ -77,7 +78,7 @@
     height: 40px;
 }
 
-/*Main styles*/
+/*Aside styles*/
 
 .main-wrapper {
     display: flex;
@@ -183,6 +184,8 @@
 .rsschool-logo {
     width: 110px;
 }
+
+/*Smartphone styles*/
 
 @media (max-width: 768px) {
 
