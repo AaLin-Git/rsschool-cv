@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alona Kovalchuk, Junior Front-end developer is a student of RS School">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Alona Kovalchuk's CV</title>
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul>
+                    <li><a class="nav-link" href="#contact-info">Contact Info</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#code-example">Code Example</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#courses">Courses</a></li>
+                    <li><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <label class="nav-label" for="nav-input">
+                <img class="nav-img" src="./images/bars-solid.svg" alt="navbar icon">
+            </label>
+        </header>
+        <div class="main-wrapper">
+            <input class="nav-input" id="nav-input" type="checkbox">
+            <nav class="burger-nav">
+                <ul>
+                    <li><a class="burger-nav-link" href="#contact-info">Contact Info</a></li>
+                    <li><a class="burger-nav-link" href="#skills">Skills</a></li>
+                    <li><a class="burger-nav-link" href="#code-example">Code Example</a></li>
+                    <li><a class="burger-nav-link" href="#projects">Projects</a></li>
+                    <li><a class="burger-nav-link" href="#courses">Courses</a></li>
+                    <li><a class="burger-nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+            <aside class="aside">
+                <img class="photo" src="./images/photo.jpeg" alt="my photo">
+                <h1 class="h1">Alona Kovalchuk</h1>
+                <h2 class="position">Junior Front-end developer</h2>
+                <p class="about">
+                    Some time ago I decided to reshape my life by learning to
+                    code. It turned out to be much easier and clearer than I
+                    thought. Now I can't imagine a day without coding. I learn
+                    and improve my knowledge of HTML, CSS, JavaScript and React.
+                    I learn quickly, solve tasks and pay attention to details.
+                </p>
+                <section id="contact-info" class="contact-info">
+                    <h3 class="sub-header">Contact Info</h3>
+                    <ul>
+                        <li class="contact-info-item">
+                            <img class="logo" src="./images/square-phone-solid.svg" alt="phone icon">
+                            <a class="contact-info-link" href="tel:+380736085976" target="_blank">+380736085976</a>
+                        </li>
+                        <li class="contact-info-item">
+                            <img class="logo" src="./images/square-envelope-solid.svg" alt="email icon">
+                            <a class="contact-info-link" href="mailto:aalin.box.it@gmail.com"
+                                target="_blank">aalin.box.it@gmail.com</a>
+                        </li>
+                        <li class="contact-info-item">
+                            <img class="logo" src="./images/discord.svg" alt="discord icon">
+                            <a class="contact-info-link" href="https://www.discordapp.com/users/1000474753942954065"
+                                target="_blank">AaLin#2620</a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+            <main class="main">
+                <section class="skills" id="skills">
+                    <h3 class="sub-header">Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+                <section class="code-example" id="code-example">
+                    <h3 class="sub-header">Code Example</h3>
+                    <pre>
+    function booleanToString(b){
+        if(b === true) {
+    return "true";
+        } else {
+    return "false";
+        }
+    }
+                </pre>
+                </section>
+                <section class="projects" id="projects">
+                    <h3 class="sub-header">Projects</h3>
+                    <ol class="projects-list">
+                        <li>
+                            <a class="project-link" href="https://github.com/AaLin-Git/Weather-website"
+                                target="_blank">Weather App [HTML, CSS,
+                                JavaScript]</a>
+                        </li>
+                        <li>
+                            <a class="project-link" href="https://github.com/AaLin-Git/Croissants"
+                                target="_blank">Croissant
+                                App [HTML, CSS,
+                                Bootstrap]</a>
+                        </li>
+                        <li>
+                            <a class="project-link" href="https://github.com/AaLin-Git/movie-website"
+                                target="_blank">Movie
+                                App [HTML, SCSS,
+                                React,
+                                JavaScript]</a>
+                        </li>
+                    </ol>
+                </section>
+                <section class="courses" id="courses">
+                    <h3 class="sub-header">Courses</h3>
+                    <ul>
+                        <li><span class="bold">SheCodes</span> Basics (completed)</li>
+                        <li><span class="bold">SheCodes</span> Plus (completed)</li>
+                        <li><span class="bold">SheCodes</span> Responsive (completed)</li>
+                        <li><span class="bold">Lviv IT School</span> Основи Web UI разработки 2022 (completed)</li>
+                        <li><span class="bold">Prometheus</span> Front-end development (completed)</li>
+                        <li><span class="bold">EnglishDom</span> Business English (completed)</li>
+                        <li><span class="bold">Ciklum</span> Front-end (in progress)</li>
+                        <li><span class="bold">Google</span> It Support (in progress)</li>
+                        <li><span class="bold">RS Schools</span> JavaScript/Front-end. Stage 0 (in progress)
+                        </li>
+                    </ul>
+                </section>
+                <section class="languages" id="languages">
+                    <h3 class="sub-header">Languages</h3>
+                    <ul>
+                        <li>Ukrainian - Native</li>
+                        <li>Russian - Fluent</li>
+                        <li>English - Intermediate</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+        <footer class="footer">
+            <p>2022</p>
+            <a href="https://github.com/AaLin-Git" target="_blank">
+                <img class="logo" src="./images/square-github.svg" alt="github logo">
+            </a>
+            <a href="https://www.linkedin.com/in/alona-k-277561236/" target="_blank">
+                <img class="logo" src="./images/linkedin.svg" alt="LinkedIn logo">
+            </a>
+            <a href="https://rs.school/js/" target="_blank">
+                <img class="rsschool-logo" src="./images/rs_school_js.svg" alt="Rs School logo">
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
