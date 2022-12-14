@@ -5,9 +5,12 @@
 
 /*Header styles*/
 
-body {
+.body-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
     font-family: 'Playfair Display', serif;
     color: #444444;
 }
@@ -46,16 +49,18 @@ body {
 
 /*Main styles*/
 
-.wrapper {
+.main-wrapper {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
+    padding: 40px 0;
     background-color: var(--primary-color);
-    
 }
 
 .photo {
@@ -66,14 +71,14 @@ body {
 }
 
 .h1 {
-    margin: 10px 20px;
+    padding: 10px 20px;
     font-size: 2.5em;
     font-weight: 700;
     color:#000000;
 }
 
 .position {
-    margin: 10px 20px 30px;
+    padding : 10px 20px 30px;
     font-size: 1.5em;
     font-weight: 700;
     color:var(--secondary-color);
@@ -81,7 +86,7 @@ body {
 
 .about,
 .contact-info {
-    margin: 10px 20px 50px;
+    padding: 10px 20px 50px;
 }
 
 .sub-header {
@@ -106,8 +111,8 @@ body {
 /*Main styles*/
 
 .main {
-    width: 60%;
-    
+    width: 50%;
+    padding: 40px 0;
 }
 
 .skills,
@@ -115,7 +120,7 @@ body {
 .projects,
 .courses,
 .languages {
-    margin: 30px;
+    padding: 20px;
 }
 
 .projects-list {
@@ -147,4 +152,47 @@ body {
 
 .rsschool-logo {
     width: 110px;
+}
+
+@media (max-width: 768px) {
+
+    .body-wrapper {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    .aside,
+    .main {
+        width: 100%;
+    }
+
+    .h1,
+    .position,
+    .sub-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about {
+        padding: 20px 40px 50px;
+    }
+
+    .contact-info {
+        margin: 0 auto;
+    }
+
+    .skills,
+    .code-example,
+    .projects,
+    .courses,
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 40px 100px 40px;
+    }
 }
