@@ -1,0 +1,243 @@
+:root {
+    --primary-color: #fffced;
+    --secondary-color: #FF8B00;
+}
+
+/*Header styles*/
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Playfair Display', serif;
+    color: #444444;
+}
+
+.header,
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.nav ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.burger-nav {
+    display: none;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--secondary-color);
+
+}
+
+.nav-link,
+.burger-nav-link {
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444444;
+}
+.burger-nav-link {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-link:visited,
+.burger-nav-link:visited {
+    color: #444444;
+}
+
+.nav-link:hover,
+.burger-nav-link:hover,
+.contact-info-link:hover,
+.project-link:hover {
+    color: #000000;
+}
+
+.nav-input,
+.nav-label {
+    display: none;
+}
+
+.nav-label {
+    padding: 30px;
+}
+
+.nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+/*Aside styles*/
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px 0;
+    background-color: var(--primary-color);
+}
+
+.photo {
+    align-self: center;
+    width: 70%;
+    margin: 40px;
+    border-radius: 50%;
+}
+
+.h1 {
+    padding: 10px 20px;
+    font-size: 2.5em;
+    font-weight: 700;
+    color:#000000;
+}
+
+.position {
+    padding : 10px 20px 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:var(--secondary-color);
+}
+
+.about,
+.contact-info {
+    padding: 10px 20px 50px;
+}
+
+.sub-header {
+    margin: 10px 0;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.contact-info-link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #444444;
+}
+
+/*Main styles*/
+
+.main {
+    width: 50%;
+    padding: 40px 0;
+}
+
+.skills,
+.code-example,
+.projects,
+.courses,
+.languages {
+    padding: 20px;
+}
+
+.projects-list {
+    margin-left: 15px;
+}
+
+.projects-list li {
+    color: var(--secondary-color)
+}
+
+.project-link {
+    text-decoration: none;
+    color: #444444;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/*Footer styles*/
+
+.footer {
+    justify-content: space-around;
+}
+
+.logo {
+    width: 30px;
+}
+
+.rsschool-logo {
+    width: 110px;
+}
+
+/*Smartphone styles*/
+
+@media (max-width: 768px) {
+
+    .body-wrapper {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-label {
+        display: block;
+    }
+
+    .nav-input:checked ~ .burger-nav {
+    display: block;
+}
+
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    .aside,
+    .main {
+        width: 100%;
+    }
+
+    .h1,
+    .position,
+    .sub-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about {
+        padding: 20px 40px 50px;
+    }
+
+    .contact-info {
+        margin: 0 auto;
+    }
+
+    .skills,
+    .code-example,
+    .projects,
+    .courses,
+    .languages {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 40px 100px 40px;
+    }
+}
