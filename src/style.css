@@ -77,10 +77,6 @@
     height: 40px;
 }
 
-.nav-input:checked ~ .burger-nav {
-    display: block;
-}
-
 /*Main styles*/
 
 .main-wrapper {
@@ -202,6 +198,10 @@
     .nav-label {
         display: block;
     }
+
+    .nav-input:checked ~ .burger-nav {
+    display: block;
+}
 
     .main-wrapper {
         flex-direction: column;
